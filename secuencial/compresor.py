@@ -31,4 +31,4 @@ if __name__ == "__main__":
     compress(input_file, output_file)
     end_time = time.time()
 
-    print(f"Compression took {end_time - start_time:.2f} seconds")
+    print(f"{end_time - start_time:.2f}")
